@@ -30,7 +30,7 @@
 	box-shadow: 1px 1px 10px black;
 	transition: 0.5s;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 20px;
 }
 .excursion-cards button:hover {
 	background-color: rgb(249, 91, 241);
