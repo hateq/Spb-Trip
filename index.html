@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+		<header class="header">
+			<div class="container">
+				<button class="button-burger">
+					<span></span><span></span><span></span>
+				</button>
+				<ul class="list">
+					<li class="list-item">
+						<a href="history.html" class="list-link">О городе</a>
+					</li>
+					<li class="list-item logo-item">
+						<a href="./index.html" class="logo-link">
+							<img class='logo' src="images/logo.png" alt="">
+						</a>
+					</li>
+					<li class="list-item">
+						<a href="excursions.html" class="list-link">Экскурсии</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<section class="discovery">
+			<div class="container">
+				<h2 class="discovery-title">
+					Открой для себя город с многовековой историей
+				</h2>
+				<h3 class="spb-title">
+					Вместе с СПБ trip!
+				</h3>
+			</div>
+			<div class="slider">
+				<div class="slider-line">
+					<img src="images/river.jpg" alt="" class="slider-img">
+					<img src="images/church.jpg" alt="" class="slider-img">
+					<img src="images/night.jpg" alt="" class="slider-img">
+				</div>
+				<button class="slider-btn-prev">&#10148;</button>
+				<button class="slider-btn-next">&#10148;</button>
+			</div>
+			<button class="spb-history-button">Узнать краткую историю города</button>
+			<div class="modal-history">
+				<div class="container">
+					<div class="modal-history-header">
+						<h3 class="modal-history-title">Краткая история Санкт-Петербурга</h3>
+						<button class="close-modal-button">X</button>
+					</div>
+					<p class="modal-history-text">Санкт-Петербург был основан в 1703 году по инициативе императора Петра I. На Заячьем острове был заложен первый камень, именно отсюда стал расти новый город. Своё название Санкт-Петербург получил от Петропавловской крепости, первого сооружения города, которое появилось на реке Неве в ходе Северной войны.</p>
+					<a href="history.html" class="modal-history-link">Посмотреть полную историю города</a>
+				</div>
+			</div>
+			<div class="advantages">
+				<h2 class="advantages-title">Наши преимущества</h2>
+				<h3 class="advantages__excursions-title">Большое количество экскурсий!</h3>
+				<p class="advantages__excursions-text">С нами вы точно исследуете весь город и его достопримечательности!</p>
+				<a href="excursions.html" class="advantages__excursions-link">Посмотреть все экскурсии</a>
+				<h3 class="advantages__work-title">Работаем круглосуточно без выходных</h3>
+				<p class="advantages__work-text">Даже в праздник наши гиды порадуют вас интересными экскурсиями</p>
+			</div>
+		</section>
+		<div class="accordion">
+			<div class="accordion-item">
+				<div class="accordion-header">
+					<p>А что, если я передумаю?</p>
+				</div>
+				<div class="accordion-body hidden">
+					<p>Вернуть оплату можно за 3 дня до мероприятия</p>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<div class="accordion-header">
+					<p>А это точно не обман, есть отзывы?</p>
+				</div>
+				<div class="accordion-body hidden">
+					<p>Отзывы от клиентов вы можете посмотреть в нашем Телеграм канале</p>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<div class="accordion-header">
+					<p>А точно будет интересно? </p>
+				</div>
+				<div class="accordion-body hidden">
+					<p>Все наши гиды очень любят свою работу, и с радостью поделятся своими знаниями о нашем любимом городе!</p>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<p>Компания была придумана для проекта</p>
+			<a href="https://github.com/hateq" class="github-link" target='_blank'><img src="images/github-mark-white.svg" alt="" class="github-logo"></a>
+		</footer>
+	<script src='js/main.js'></script>
+	<script src='js/slider.js'></script>	
+	<script src='js/modal-history.js'></script>
+	<script src='js/accordion.js'></script>
+	<script src='js/button-burger.js'></script>
+</body>
+</html>
