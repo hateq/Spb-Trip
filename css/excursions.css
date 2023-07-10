@@ -35,7 +35,7 @@
 .excursion-cards button:hover {
 	background-color: rgb(249, 91, 241);
 }
-@media (max-width:450px) {
+@media (max-width:900px) {
 	.excursion-cards {
 		grid-template-columns: repeat(1, 1fr);
 	}
