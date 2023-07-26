@@ -1,1 +1,1 @@
-# hateq.github.io/Spb-Trip/
+# https://hateq.github.io/Spb-Trip/
